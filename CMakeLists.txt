@@ -17,5 +17,5 @@
 cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
 project (cmake-module-freeimage)
 
-set(CMAKE_MODULE_FREEIMAGE ${CMAKE_SOURCE_DIR})
-include(${CMAKE_MODULE_FREEIMAGE}/module.cmake)
+set(CMAKE_MODULE_FREEIMAGE_DIR ${CMAKE_SOURCE_DIR})
+include(${CMAKE_MODULE_FREEIMAGE_DIR}/module.cmake)
